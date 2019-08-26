@@ -35,3 +35,4 @@ variables:
 test:
   script:
     - vendor/bin/phpunit --configuration phpunit.xml --coverage-text --colors=never
+
