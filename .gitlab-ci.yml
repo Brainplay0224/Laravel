@@ -17,7 +17,7 @@ before_script:
   - docker-php-ext-enable xdebug
   # Install and run Composer
   - curl -sS https://getcomposer.org/installer | php
-  #- php composer.phar install
+  - php composer.phar install
   - curl --location --output /usr/local/bin/phpunit https://phar.phpunit.de/phpunit.phar
   - chmod +x /usr/local/bin/phpunit
 
